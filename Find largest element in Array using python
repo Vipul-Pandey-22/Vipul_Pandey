@@ -1,0 +1,12 @@
+print(''' $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Python Program to find largest element in an array%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+          ''')
+number = int(input("Enter Number of Elements"))
+arr= []
+for i in range(number):
+    ele = int(input("Enter Elements"))
+    arr.append(ele)
+    number-=i
+    print(f"You Entered {ele} at {i} index")
+print(arr)
+print("You have inserted your maximum element in your array!")
+print("Largest Number in Your Array : ", max(arr))
